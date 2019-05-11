@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MainForm.forms;
+using System;
 using System.Windows.Forms;
 
 namespace MainForm
@@ -13,7 +14,7 @@ namespace MainForm
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new MainForm());
+			Application.Run(new loginForm());
 		}
 	}
 }
