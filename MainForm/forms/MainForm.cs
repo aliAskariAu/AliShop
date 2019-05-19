@@ -69,8 +69,9 @@ namespace MainForm
 			string namee = dataGridView1.CurrentRow.Cells[1].Value.ToString();
 			string pricee = dataGridView1.CurrentRow.Cells[2].Value.ToString();
 			string qq = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+			string pic = dataGridView1.CurrentRow.Cells[4].Value.ToString();
 
-			updateForm uForm = new updateForm(idd, namee, pricee, qq);
+			updateForm uForm = new updateForm(idd, namee, pricee, qq, pic);
 			uForm.Show();
 		}
 	}
