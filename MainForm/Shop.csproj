@@ -46,18 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\BuyItem.cs" />
     <Compile Include="Class\connectionString.cs" />
+    <Compile Include="Class\PaymentStatus.cs" />
     <Compile Include="forms\addForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forms\addForm.Designer.cs">
       <DependentUpon>addForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\BankForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\BankForm.Designer.cs">
+      <DependentUpon>BankForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\ClientForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forms\ClientForm.Designer.cs">
       <DependentUpon>ClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\CustomerShopList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\CustomerShopList.Designer.cs">
+      <DependentUpon>CustomerShopList.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\LoginForm.cs">
       <SubType>Form</SubType>
@@ -85,8 +99,14 @@
     <EmbeddedResource Include="forms\addForm.resx">
       <DependentUpon>addForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\BankForm.resx">
+      <DependentUpon>BankForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\ClientForm.resx">
       <DependentUpon>ClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\CustomerShopList.resx">
+      <DependentUpon>CustomerShopList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
